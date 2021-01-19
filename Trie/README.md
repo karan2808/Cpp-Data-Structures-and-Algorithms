@@ -1,0 +1,1 @@
+1. Trie (prefix tree) implementation. Consists of insert, search, and startsWith methods. 
