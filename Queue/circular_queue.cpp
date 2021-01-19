@@ -1,35 +1,43 @@
 #include <iostream>
 using namespace std;
 
-class circular_queue {
+class circular_queue
+{
     int *que_buff;
     int front, back;
     int MAX_SIZE;
-    public:
-    circular_queue (int buff_size = 20) {
+
+public:
+    circular_queue(int buff_size = 20)
+    {
         MAX_SIZE = buff_size;
         // initialize the buffer with max size
-        que_buff = new int [MAX_SIZE];
+        que_buff = new int[MAX_SIZE];
         // intial positions of the pointer when queue is empty
         front = back = -1;
         // set all values to 0
         memset(que_buff, 0, sizeof(int) * MAX_SIZE);
     }
-    ~circular_queue () {
+    ~circular_queue()
+    {
         delete que_buff;
     }
-    // display all elements 
-    void display_elements ();
-    // enque a val 
-    void enque (int val);
+    // display all elements
+    void display_elements();
+    // enque a val
+    void enque(int val);
     // get the last element
-    int deque ();
+    int deque();
+    // check if queue is empty
+    bool isEmpty();
 };
 
 // enque an element to the queue
-void circular_queue::enque(int item) {
+void circular_queue::enque(int item)
+{
     // check if queue is full
-    if ((back + 1) % MAX_SIZE == front) {
+    if ((back + 1) % MAX_SIZE == front)
+    {
         cout << "Queue Full" << endl;
         return;
     }
@@ -38,13 +46,16 @@ void circular_queue::enque(int item) {
     // put the element in the queue
     que_buff[back] = item;
     // if first element, increment front
-    if (front == -1) front = 0;
+    if (front == -1)
+        front = 0;
 }
 
 // deque an element
-int circular_queue::deque() {
+int circular_queue::deque()
+{
     // check if queue is empty
-    if (front == -1) {
+    if (front == -1)
+    {
         cout << "Queue Empty" << endl;
         return -1;
     }
@@ -53,10 +64,13 @@ int circular_queue::deque() {
     // set front to 0 so the element is popped
     que_buff[front] = 0;
     // if all the elements are removed, reset
-    if (front == back) {
+    if (front == back)
+    {
         back = -1;
         front = -1;
-    } else {
+    }
+    else
+    {
         // increment front
         front = (front + 1) % MAX_SIZE;
     }
@@ -64,14 +78,27 @@ int circular_queue::deque() {
 }
 
 // display all the elements in the queue
-void circular_queue::display_elements() {
-    for (int i = 0; i < MAX_SIZE; i++) {
+void circular_queue::display_elements()
+{
+    for (int i = 0; i < MAX_SIZE; i++)
+    {
         cout << que_buff[i] << " ";
     }
     cout << endl;
 }
 
-int main() {
+bool circular_queue::isEmpty()
+{
+    if (front == -1 && back == -1)
+    {
+        cout << "Queue is empty" << endl;
+        return true;
+    }
+    return false;
+}
+
+int main()
+{
     circular_queue cq(20);
     cq.enque(1);
     cq.enque(2);
