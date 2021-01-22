@@ -10,4 +10,6 @@
 
 6. CanIWin: Two players play a game. Each takes turn and selects a number from 1 to maxChoosableInteger. The first one to cross the desiredTotal sum wins. Each number can only be selected once. If a player plays first, the objective is to find if that player can force a win if both players play optimally.
 
-7. Mininum Path Sum: Given a m x n grid, a robot starts at top left. The objective is to find the minimum path sum from top left to bottom right if the robot can move only right or down.  
+7. Mininum Path Sum: Given a m x n grid, a robot starts at top left. The objective is to find the minimum path sum from top left to bottom right if the robot can move only right or down. 
+
+8. Best Time to Buy and Sell Stock with Cooldown: An array of prices contains price of a given stock on a given day (ith element is price of the stock on day i). The goal is to find maximum profit while not engaging in multiple transactions at the same time, i.e. its mandatory to sell the stock before buying it again, and, after the stock is sold, it cannot be bought on the next day.
