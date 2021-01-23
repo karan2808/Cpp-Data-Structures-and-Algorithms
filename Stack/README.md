@@ -11,3 +11,5 @@
 6. Valid Paranthesis: A program to check the validity of a given string contaning paranthesis.
 
 7. Stack Using Queue: Implementation of a stack using a single queue.
+
+8. Next Greater Element 1: For given integer arrays nums1 and nums2, where nums1 is the subset of nums2, the objective is to find the next greater element for every element in nums1, in nums2. 
