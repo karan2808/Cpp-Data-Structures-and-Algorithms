@@ -3,19 +3,24 @@
 
 using namespace std;
 
-class MyQueue {
+class MyQueue
+{
     stack<int> stk1;
     stack<int> stk2;
     int front;
-    public:
+
+public:
     // push an element to the back of the queue
-    void push(int x) {
-        // if the queue is empty, the new element becomes front 
-        if (stk1.empty()) {
+    void push(int x)
+    {
+        // if the queue is empty, the new element becomes front
+        if (stk1.empty())
+        {
             front = x;
         }
         // empty stack 1 into stack2
-        while (!stk1.empty()) {
+        while (!stk1.empty())
+        {
             int y = stk1.top();
             stk1.pop();
             stk2.push(y);
@@ -23,37 +28,44 @@ class MyQueue {
         // push the num on stack 2
         stk2.push(x);
         // empty stack2 back into stack 1
-        while (!stk2.empty()) {
+        while (!stk2.empty())
+        {
             int y = stk2.top();
             stk2.pop();
             stk1.push(y);
         }
     }
     // Remove and return the top element of the queue
-    int pop() {
+    int pop()
+    {
         front = stk1.top();
         stk1.pop();
         return front;
     }
-    // get the element from the front 
-    int peek() {
+    // get the element from the front
+    int peek()
+    {
         front = stk1.top();
         return front;
     }
     // returns whether queue is empty
-    bool empty() {
+    bool empty()
+    {
         return stk1.empty();
     }
 
-    void print_elements() {
-        while (!stk1.empty()) {
+    void print_elements()
+    {
+        while (!stk1.empty())
+        {
             int x = stk1.top();
             stk1.pop();
             stk2.push(x);
             cout << x << " ";
         }
         cout << endl;
-        while (!stk2.empty()) {
+        while (!stk2.empty())
+        {
             int x = stk2.top();
             stk2.pop();
             stk1.push(x);
@@ -61,9 +73,8 @@ class MyQueue {
     }
 };
 
-
-
-int main() {    
+int main()
+{
     MyQueue que;
     que.push(5);
     que.push(15);
