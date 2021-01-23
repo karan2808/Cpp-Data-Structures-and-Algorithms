@@ -3,3 +3,5 @@
 2. Remove All Adjacent Duplicates In String: Given a string s of lowercase letters, duplicate removal  consists of choosing two adjacent duplicate letters and removing them. The objective is to remove duplicates until there are no adjacent duplicates left.
 
 3. Array With Stack Operations: Given an array target and an integer n, the objective is to output an array of stack operations that lead to the formation of target while reading numbers from 1 to n.
+
+4. Queue using Stack: Implementation of a queue using two stacks.
