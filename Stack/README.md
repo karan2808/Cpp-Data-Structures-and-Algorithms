@@ -7,3 +7,5 @@
 4. Queue using Stack: Implementation of a queue using two stacks.
 
 5. Min Stack: A stack that supports push, pop, top, getMin (get the minimum element) in constant time.
+
+6. Valid Paranthesis: A program to check the validity of a given string contaning paranthesis.
