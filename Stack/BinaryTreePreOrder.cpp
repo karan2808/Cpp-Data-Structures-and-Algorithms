@@ -39,6 +39,7 @@ public:
         if (!root) return preorder;
         // push the nodes onto stack while traversing
         stack<TreeNode*> nodes;
+        nodes.push(root);
         while (!nodes.empty()) {
             root = nodes.top();
             nodes.pop();
