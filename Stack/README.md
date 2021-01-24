@@ -17,3 +17,5 @@
 9. Decode String: Given an encoded string, the objective is to decode it. The encoding rule is k[encoded_string], where the encoded_sting inside the brackets is repeated k times. 
 
 10. Binary Tree Inorder Traversal: Given the root node of binary tree, the objective is to find the inorder traversal of the tree. 
+
+11. Binary Search Tree Iterator: Implementation of a BST Iterator with hasNext and get Next functions. HasNext indicates if there is a next element to visit or the iteration ended. Next function returns the value of the next element. 
