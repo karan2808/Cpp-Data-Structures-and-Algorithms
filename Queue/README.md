@@ -3,3 +3,5 @@
 2. Circular deque is similar to the circular queue, but allows insertion and deletion from both front and rear of the queue. 
 
 3. Program to find the Kth Largest element in an array or a vector. 
+
+4. Binary Tree Zig Zag Level Order Traversal: Given a binary tree, the objective is to find the zig zag level order traversal of its nodes.
