@@ -15,3 +15,5 @@
 8. Next Greater Element 1: For given integer arrays nums1 and nums2, where nums1 is the subset of nums2, the objective is to find the next greater element for every element in nums1, in nums2.
 
 9. Decode String: Given an encoded string, the objective is to decode it. The encoding rule is k[encoded_string], where the encoded_sting inside the brackets is repeated k times. 
+
+10. Binary Tree Inorder Traversal: Given the root node of binary tree, the objective is to find the inorder traversal of the tree. 
