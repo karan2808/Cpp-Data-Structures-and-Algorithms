@@ -23,3 +23,5 @@
 12. Binary Tree Postorder Traversal: Given the root node of binary tree, the objective is to find the postorder traversal of the tree.
 
 13. Binary Search Tree Iterator: Implementation of a BST Iterator with hasNext and get Next functions. HasNext indicates if there is a next element to visit or the iteration ended. Next function returns the value of the next element. 
+
+14. Next Greater Node in Linked List: A linked list is given where each node may have a next greater value. The objective is to find that value for each node in the list.
