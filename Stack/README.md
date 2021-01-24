@@ -18,4 +18,8 @@
 
 10. Binary Tree Inorder Traversal: Given the root node of binary tree, the objective is to find the inorder traversal of the tree. 
 
-11. Binary Search Tree Iterator: Implementation of a BST Iterator with hasNext and get Next functions. HasNext indicates if there is a next element to visit or the iteration ended. Next function returns the value of the next element. 
+11. Binary Tree Preorder Traversal: Given the root node of binary tree, the objective is to find the preorder traversal of the tree.
+
+12. Binary Tree Postorder Traversal: Given the root node of binary tree, the objective is to find the postorder traversal of the tree.
+
+13. Binary Search Tree Iterator: Implementation of a BST Iterator with hasNext and get Next functions. HasNext indicates if there is a next element to visit or the iteration ended. Next function returns the value of the next element. 
