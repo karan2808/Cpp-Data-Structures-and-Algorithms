@@ -1,1 +1,3 @@
-1. redundant_connection: A graph is obtained from a tree with N nodes with distinct values from 1 to N, by connecting any two nodes by an edge. This edge, that creates a cycle in the graph, is found using union find. 
+1. Redundant Connection: A graph is obtained from a tree with N nodes with distinct values from 1 to N, by connecting any two nodes by an edge. This edge, that creates a cycle in the graph, is found using union find. 
+
+2. Redundant Connection 2: A rooted tree is a directed graph such that, there is exactly one node for which all other nodes are descendants of this node, and every node has one parent except for the root which has none. Given a directed graph which starts as a rooted tree with node values 1 to n and is later modified by adding an edge creating a cycle. The objective is to find an edge that can be removed so that the resulting graph is a rooted tree. 
