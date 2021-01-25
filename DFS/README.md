@@ -11,3 +11,5 @@
 6. Number of Islands: Given a m x n 2D grid of 1s and 0s where 1s correspond to land and 0s correspond to water. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. The objective is to find the number of islands in the grid. 
 
 7. Longest Increasing Path in a Matrix: Given an m x n matrix, the objective is to return the length of the longest increasing path in the matrix. 
+
+8. Binary Tree Maximum Path Sum: A path is a binary tree is a sequence of nodes where each pair of adjacent nodes in the sequence has an edge connecting them. A node can only appear in the sequence at most once. The path sum of a path is sum of nodes values in the path. The objective is to find the maximum path sum. 
