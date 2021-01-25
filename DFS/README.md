@@ -13,3 +13,5 @@
 7. Longest Increasing Path in a Matrix: Given an m x n matrix, the objective is to return the length of the longest increasing path in the matrix. 
 
 8. Binary Tree Maximum Path Sum: A path is a binary tree is a sequence of nodes where each pair of adjacent nodes in the sequence has an edge connecting them. A node can only appear in the sequence at most once. The path sum of a path is sum of nodes values in the path. The objective is to find the maximum path sum. 
+
+9. Out of Boundary Paths: Given an m x n grid with a ball along with its starting position. The ball can be moved to an adjacent cell or cross the grid boundary in four directions (up, down, left, right). The objective is to find the number of paths to move the ball out of grid boundary, given the ball can be moved at most N times.
