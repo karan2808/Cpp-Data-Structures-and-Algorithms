@@ -1,0 +1,1 @@
+1. Course Schedule: There are total of numCourses labeled from 0 to numCourses - 1. A list of prerequisites is given in which each element is a pair of integers, the first integer being the course and the second being its prerequisite. The objective is to find if all the courses can be completed. 
