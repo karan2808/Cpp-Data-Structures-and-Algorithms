@@ -25,3 +25,5 @@
 13. Binary Search Tree Iterator: Implementation of a BST Iterator with hasNext and get Next functions. HasNext indicates if there is a next element to visit or the iteration ended. Next function returns the value of the next element. 
 
 14. Next Greater Node in Linked List: A linked list is given where each node may have a next greater value. The objective is to find that value for each node in the list.
+
+15. Given a paranthesis string s containing only characters '(' and ')', a balanced string has two ')' or right paranthesis for every left paranthesis. The right ones should be positioned after the left ones. The objective is to find the minimum number of insertions required to make the string balanced. 
