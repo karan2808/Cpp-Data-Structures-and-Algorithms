@@ -13,3 +13,5 @@
 7. Mininum Path Sum: Given a m x n grid, a robot starts at top left. The objective is to find the minimum path sum from top left to bottom right if the robot can move only right or down. 
 
 8. Best Time to Buy and Sell Stock with Cooldown: An array of prices contains price of a given stock on a given day (ith element is price of the stock on day i). The goal is to find maximum profit while not engaging in multiple transactions at the same time, i.e. its mandatory to sell the stock before buying it again, and, after the stock is sold, it cannot be bought on the next day.
+
+9. Coin Change: Given coins of different denominations and a total amount of money 'amount'. The objective is to find the maximum amount of coins that are needed to make up that total 'amount'.
