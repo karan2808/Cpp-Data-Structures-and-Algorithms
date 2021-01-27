@@ -17,3 +17,5 @@
 9. Out of Boundary Paths: Given an m x n grid with a ball along with its starting position. The ball can be moved to an adjacent cell or cross the grid boundary in four directions (up, down, left, right). The objective is to find the number of paths to move the ball out of grid boundary, given the ball can be moved at most N times.
 
 10. Matchsticks to Square: Given a list of numbers representing the length of different matchsticks, the objective is to find whether they can be arranged to form a square. 
+
+11. Clone Graph: Given a reference node in a connected undirected graph, the objective is to return a deep copy of the graph.
