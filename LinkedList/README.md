@@ -1,1 +1,0 @@
-1. Copy List with Random Pointer: Given a linked list, each node contains an additional random pointer which could point to any node in the list or null. The objective is to make a deep copy of the linked list.
