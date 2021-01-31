@@ -17,3 +17,5 @@
 9. Coin Change: Given coins of different denominations and a total amount of money 'amount'. The objective is to find the maximum amount of coins that are needed to make up that total 'amount'. There are infinite number of each kind of coin.
 
 10. Coin Change 2: Given coins of different denominations and a total amount of money 'amount'. The objective is to find the number of combinations of coins that can sum to 'amount'.
+
+11. Unique Binary Search Trees: Given an integer n, the objective is to find the total number of structurally unique BSTs (Binary Search Trees) which have exactly n nodes of unique values from 1 to n. 
