@@ -3,3 +3,5 @@
 2. First Missing Positive: Given an integer array, find the smallest missing positive number.
 
 3. Pivot Index: Given an integer array, find the pivot index i such that the sum over all elements at indices less than i is equal to the sum over all elements with indices greater than i.
+
+4. Partition Equal Subset Sum: Given a non-empty array nums containing only positive integers, the objective is to find if the array can be partitioned into subsets of equal sum. 
