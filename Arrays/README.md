@@ -7,3 +7,5 @@
 4. Partition Equal Subset Sum: Given a non-empty array nums containing only positive integers, the objective is to find if the array can be partitioned into subsets of equal sum. 
 
 5. Pick T from N: Given an array of N numbers, the objective is to return T numbers picked at random without replacement. 
+
+6. Merge Intervals: Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input. 
