@@ -5,3 +5,5 @@
 3. Print Binary Tree: Program to print a binary tree. 
 
 4. Unique Binary Trees: Given the number of nodes in a binary tree, the objective is to find the total number of unique combinations that can be generated. 
+
+5. Kth Smallest Element in a BST: Given the root of a binary search tree, and an integer k, the goal is to find the kth smallest element in the BST. 
