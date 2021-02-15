@@ -13,3 +13,5 @@
 7. Product of Array except self: Given an array of integers, the goal is to return the product of the array elements except self. If we consider an element at index 5, the product will consist of the product of elements from 0 to 4 and 6 onwards.
 
 8. Find the Duplicate Number: Given an array of integers nums containing n + 1 integers, where each one is in the range 1 to n. The objective is to find a number that is repeated using constant space. 
+
+9. Search in Rotated Sorted Array: An integer array nums is sorted in ascending order. It is then rotated at an unknown pivot index. Given a target integer, return its location in the array. 
