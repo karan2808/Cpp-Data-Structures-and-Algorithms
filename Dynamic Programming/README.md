@@ -19,3 +19,7 @@
 10. Coin Change 2: Given coins of different denominations and a total amount of money 'amount'. The objective is to find the number of combinations of coins that can sum to 'amount'.
 
 11. Unique Binary Search Trees: Given an integer n, the objective is to find the total number of structurally unique BSTs (Binary Search Trees) which have exactly n nodes of unique values from 1 to n. 
+
+12. Target Sum: Given a list of non-negative integers a1, a2, ... an, and a target, S. For each integer, there are two choices + and -. The goal is to find the total number of ways to assign these two symbols such that the numbers sum to target. 
+
+13. Counting Bits: Given an integer num. For every integer i in the range 0 to num the goal is to find the number of 1s in their binary representation. 
