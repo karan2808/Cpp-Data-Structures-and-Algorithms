@@ -5,3 +5,7 @@
 3. Program to find the Kth Largest element in an array or a vector. 
 
 4. Binary Tree Zig Zag Level Order Traversal: Given a binary tree, the objective is to find the zig zag level order traversal of its nodes.
+
+5. Binary Tree Right Side View: Given a binary tree, find the right side view of the tree (nodes visible at each level when observed from right) and return it as a vector of node values. 
+
+6. Binary Tree Left Side View: Given a binary tree, find the left side view of the tree (nodes visible at each level when observed from left) and return it as a vector of node values. 
