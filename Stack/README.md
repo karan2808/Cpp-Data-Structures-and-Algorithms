@@ -27,3 +27,5 @@
 14. Next Greater Node in Linked List: A linked list is given where each node may have a next greater value. The objective is to find that value for each node in the list.
 
 15. Minimum Insertions to Balance Parantheses String: Given a paranthesis string s containing only characters '(' and ')', a balanced string has two ')' or right paranthesis for every left paranthesis. The right ones should be positioned after the left ones. The objective is to find the minimum number of insertions required to make the string balanced. 
+
+16. Find Most Competitive SubSequence: Given an array of integers and an integer k, find the subsequence where in the first element to differ from other subsequences is the smallest. 
