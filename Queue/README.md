@@ -9,3 +9,5 @@
 5. Binary Tree Right Side View: Given a binary tree, find the right side view of the tree (nodes visible at each level when observed from right) and return it as a vector of node values. 
 
 6. Binary Tree Left Side View: Given a binary tree, find the left side view of the tree (nodes visible at each level when observed from left) and return it as a vector of node values. 
+
+7. Top K Frequent Elements: Given an array of ints, find the top K elements that appear most frequently in the array.
