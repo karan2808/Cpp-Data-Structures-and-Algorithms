@@ -23,3 +23,15 @@
 12. Maximum Product SubArray: Given an array of integers, find maximum product of a sub array of the given array.
 
 13. 3 Sum: Given an array nums of n integers, the goal is to find unique triplets of elements in the array such that they sum to 0.
+
+14. 3 Sum Closest: Given an array nums of n integers and an integer target, the goal is to find 3 integers such that the sum is closest to the target. 
+
+15. 4 Sum: Given an array of nums of n ints, and an int target, find all unique quadruplets in nums such that they sum to target. 
+
+16. Remove Duplicates From Sorted Array: Given a sorted array, wap to remove duplicates in O(N) time and constant space. 
+
+17. Next Permutation: Implement a program to rearrange numbers into lexicographically next greater permutations of numbers. The replacement should be in place and take constant memory. 
+
+34. Find First and Last Position of Element in Sorted Array: Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value. 
+
+35. Image Smoother: Given a 2D image matrix M, the goal is to smooth the image in such a way that each pixel value becomes the mean of the 8 neighbors of the pixel and itself. 
