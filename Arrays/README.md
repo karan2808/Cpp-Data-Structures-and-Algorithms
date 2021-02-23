@@ -21,3 +21,5 @@
 11. Average Waiting Time: There is a restaurant with a single chef. If given an array of curstomers where customers[i] = {arrivali, timei}, find the average waiting time. The time arrivali denotes time of arrival of a customer and timei denotes waiting time for that customer. The chef can prepare only one order at a time. 
 
 12. Maximum Product SubArray: Given an array of integers, find maximum product of a sub array of the given array.
+
+13. 3 Sum: Given an array nums of n integers, the goal is to find unique triplets of elements in the array such that they sum to 0.
