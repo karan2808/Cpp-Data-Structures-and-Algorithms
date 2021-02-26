@@ -35,3 +35,5 @@
 34. Find First and Last Position of Element in Sorted Array: Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value. 
 
 35. Image Smoother: Given a 2D image matrix M, the goal is to smooth the image in such a way that each pixel value becomes the mean of the 8 neighbors of the pixel and itself. 
+
+36. Count Primes: Given a number n, count the number of prime numbers from 1 to n. 
