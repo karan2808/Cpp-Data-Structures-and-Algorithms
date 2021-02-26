@@ -9,3 +9,5 @@
 5. Kth Smallest Element in a BST: Given the root of a binary search tree, and an integer k, the goal is to find the kth smallest element in the BST. 
 
 6. Binary Tree Level Order Traversal: Given a binary search tree, the goal is to find the level order traversal of the tree. 
+
+7. Flatten Binary Tree to Linked List: Given a binary tree, return the flattened version of the binary tree. 
