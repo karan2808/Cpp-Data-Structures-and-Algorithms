@@ -1,0 +1,1 @@
+1. Insert Delete Get Random Number O(1): Write a program to insert, delete and get a random number. 
