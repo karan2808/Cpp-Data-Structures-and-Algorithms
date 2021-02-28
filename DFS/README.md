@@ -19,3 +19,5 @@
 10. Matchsticks to Square: Given a list of numbers representing the length of different matchsticks, the objective is to find whether they can be arranged to form a square. 
 
 11. Clone Graph: Given a reference node in a connected undirected graph, the objective is to return a deep copy of the graph.
+
+12. Detect Cycles in 2D Grid: Given a 2D array of characters grid of size m x n, find if there exists any cycle consisting of the same value in the grid. 
