@@ -37,3 +37,5 @@
 35. Image Smoother: Given a 2D image matrix M, the goal is to smooth the image in such a way that each pixel value becomes the mean of the 8 neighbors of the pixel and itself. 
 
 36. Count Primes: Given a number n, count the number of prime numbers from 1 to n. 
+
+37. Rotate Image: Given a 2D array of an image, wap to rotate it by 90.
