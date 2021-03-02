@@ -38,4 +38,6 @@
 
 36. Count Primes: Given a number n, count the number of prime numbers from 1 to n. 
 
-37. Rotate Image: Given a 2D array of an image, wap to rotate it by 90.
+37. Rotate Image: Given a 2D array of an image, wap to rotate it by 90. 
+
+38. Diagonal Traverse: Given a 2D integer matrix M representing the gray scale of an image, return all elements of the matrix in diagonal order as shown in the below image. 
