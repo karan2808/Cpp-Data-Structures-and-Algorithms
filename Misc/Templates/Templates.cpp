@@ -21,20 +21,20 @@
 
 using namespace std;
 
-// One functions can be used for different data types.
+// One function can be used for different data types.
 template <typename T>
 T findMax(T x, T y)
 {
     return (x > y) ? x : y;
 }
 
-// A template function to implement bubble sort.
+// A template function to implement bubble sort (can use typename or class)
 template <class F>
 void bubbleSort(F a[], int n)
 {
-    for (int i = 0; i < n - 1; i++)
+    for (int i = 0; i < n; i++)
     {
-        for (int j = n - 1; i < j; j--)
+        for (int j = n - 1; j > i; j--)
         {
             if (a[j] < a[j - 1])
             {
