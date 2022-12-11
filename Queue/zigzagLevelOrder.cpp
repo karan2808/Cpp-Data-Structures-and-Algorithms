@@ -45,6 +45,7 @@ class Solution {
             for (int i = 0; i < sz; i++) {
                 // the front of the queue is the first node in level order traversal
                 TreeNode* curr = Queue.front();
+                cout << "The value of the current node is " << curr->val << endl;
                 Queue.pop();
                 currentLevel.push_back(curr->val);
                 // push the left and right nodes of the current node, this will be the second layer 
@@ -52,13 +53,13 @@ class Solution {
                 if (curr->right) Queue.push(curr->right);
             }
             // if flag is set, reverse the order of elements
-            if (flag) {
+            if (!flag) {
                 reverse(currentLevel.begin(), currentLevel.end());
                 result.push_back(currentLevel);
-                flag = false;
+                flag = true;
             } else {
                 result.push_back(currentLevel);
-                flag = true;
+                flag = false;
             }
         }
         return result;
