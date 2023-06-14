@@ -18,7 +18,7 @@
 
 10. Degree of an Array: Given a non-empty array of non-negative integers nums, the degree of this array is the maximu frequency of one of its elements. The objective is to find the smallest possible length of a contiguous sub array of nums which has the same degree as nums. 
 
-11. Average Waiting Time: There is a restaurant with a single chef. If given an array of curstomers where customers[i] = {arrivali, timei}, find the average waiting time. The time arrivali denotes time of arrival of a customer and timei denotes time at which the chef prepares the order. The chef can prepare only one order at a time. 
+11. Average Waiting Time: There is a restaurant with a single chef. If given an array of curstomers where customers[i] = {arrivali, timei}, find the average waiting time. The time arrivali denotes time of arrival of a customer and timei denotes time taken to prepare the order for that customer. The chef can prepare only one order at a time. 
 
 12. Maximum Product SubArray: Given an array of integers, find maximum product of a sub array of the given array.
 
